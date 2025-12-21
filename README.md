@@ -1,6 +1,6 @@
 # REACT-Js
 
-Welcome to **reactjs-lib** — my personal React playground where components are born, broken, fixed, and reborn again.
+Welcome to **reactjs-lib**, my personal React playground where components are born, broken, fixed, and reborn again.
 
 This repo exists purely for **learning, experimenting, and occasionally asking React _“why are you like this?”_**.
 
@@ -28,7 +28,7 @@ This repo exists purely for **learning, experimenting, and occasionally asking R
 
 ## Structure 📁
 
-(Organization improves as my React skills improve — no promises)
+(Organization improves as my React skills improve, no promises)
 
 ## Disclaimer ⚠️
 
