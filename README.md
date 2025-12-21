@@ -1,4 +1,4 @@
-# reactjs-lib ⚛️
+# REACT-Js
 
 Welcome to **reactjs-lib** — my personal React playground where components are born, broken, fixed, and reborn again.
 
@@ -45,5 +45,5 @@ Built with curiosity, confusion, and a lot of `useEffect` debugging 😌
 
 ## Let's Connect
 
-Feel free to connect with me on **[LinkedIn](https://www.linkedin.com/in/rv07/)
-and on **[X](https://x.com/ReyZox_07)
+Feel free to connect with me on **[LinkedIn](https://www.linkedin.com/in/rv07/)**
+and on **[X](https://x.com/ReyZox_07)**
