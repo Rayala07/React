@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Inputs = (props) => {
+const Inputs = ({ setUserData }) => {
   const [userName, setUserName] = useState("");
   const [userRole, setUserRole] = useState("");
   const [companyName, setCompanyName] = useState("");
@@ -28,8 +28,12 @@ const Inputs = (props) => {
       companyName: companyName,
       city: city,
     };
-    
-    props.setUserData((oldData) => [...oldData, newUser]);
+
+    setUserData((oldData) => {
+      const updatedData = [...oldData, newUser];
+      localStorage.setItem("user-data", JSON.stringify(updatedData));
+      return updatedData;
+    });
 
     setUserName("");
     setUserRole("");

@@ -3,12 +3,17 @@ import Inputs from "./components/Inputs";
 import { useState } from "react";
 
 const App = () => {
-  const [userData, setData] = useState([]);
+  const localData = JSON.parse(localStorage.getItem("user-data")) || [];
+  const [userData, setData] = useState(localData);
 
   console.log(userData);
 
   const deleteHandler = (idx) => {
-    setData((oldData) => oldData.filter((_, i) => i !== idx));
+    setData((oldData) => {
+      const updatedData = oldData.filter((_, i) => i !== idx);
+      localStorage.setItem("user-data", JSON.stringify(updatedData));
+      return updatedData;
+    });
   };
 
   return (
