@@ -1,9 +1,9 @@
 import React from "react";
 
 const User = ({ user, key }) => {
-  const col1 = Math.floor(Math.random() * 256);
-  const col2 = Math.floor(Math.random() * 256);
-  const col3 = Math.floor(Math.random() * 256);
+  const col1 = 0;
+  const col2 = 0;
+  const col3 = 0;
   return (
     <div id={key} style={{ backgroundColor: `rgb(${col1},${col2},${col3})` }}>
       {user.name}
