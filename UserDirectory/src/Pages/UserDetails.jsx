@@ -52,7 +52,7 @@ const UserDetails = () => {
       <h1>{user.city}</h1>
 
       <button onClick={() => navigate('/') }>Go to Home</button>
-      <button onClick={() => navigate('/users')}>Got to Users</button>
+      <button onClick={() => navigate('/users')}>Go to Users</button>
     </div>
   )
 }
